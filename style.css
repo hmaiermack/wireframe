@@ -52,8 +52,13 @@ div .footer{
     flex-direction: row;
 }
 
-.quiz-box{
+.quiz-box, .current-question, .feedback, .results-page{
+    border: 1px solid black;
+    margin: 1em 0 1em 0;
+}
 
+.answer-response{
+    background-color: aqua;
 }
 
 .correct-answer{
@@ -62,4 +67,9 @@ div .footer{
 
 .incorrect-answer{
     background-color: red;
+}
+
+.first-page{
+    border: 1px solid black;
+    margin: 1em 0 1em 0;
 }
